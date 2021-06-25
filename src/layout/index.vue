@@ -1,11 +1,12 @@
 <template>
   <div class="main-page" :class="$store.state.darkTheme?'dark-theme':''">
-
     <SliderBar class="sliderBar" :style="{width:getWidth+'px'}" />
     <el-scrollbar wrap-class="scroll_main">
       <div class="main-container">
         <Header />
-        <router-view />
+        <transition name="fade-transform">
+          <router-view />
+        </transition>
       </div>
 
     </el-scrollbar>
@@ -42,4 +43,21 @@ export default {
   }
 }
 </script>
+<style lang="scss">
+/* fade-transform */
+.fade-transform-leave-active,
+.fade-transform-enter-active {
+  transition: all .5s;
+}
 
+.fade-transform-enter {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+.fade-transform-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+</style>

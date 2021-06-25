@@ -25,6 +25,12 @@ body{
     overflow-x: hidden;
   }
   .scroll_main{
+    transition: width 0.5s ease;
+  }
+  // .sliderTransition{
+  //   transition: width 2s ease;
+  // }
+  .scroll_main{
     height: 100%;
     overflow-x: hidden;
     .el-scrollbar__view{
@@ -33,6 +39,9 @@ body{
   }
  .sliderBar{
    height: 100%;
+   // 有闪白问题
+  //  transition: all 0.5s ease;
+  //  overflow:hidden ;
    // sliderbar收缩后的样式
    .el-menu--collapse{
     .el-submenu__title,.el-tooltip{
@@ -66,7 +75,7 @@ body{
   ul.el-menu{
     min-height: 100% ;
     position: relative !important;
-   
+    border-right: none;
   }
     
 	

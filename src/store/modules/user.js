@@ -10,7 +10,7 @@ export default {
     isAuthenticated: isAuthenticated || false,
     age: 0,
     gender: 'male',
-    authority: '',
+    authority: username || '',
     desc: ''
   }),
   mutations: {
