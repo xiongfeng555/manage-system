@@ -1,0 +1,42 @@
+
+.dark-theme{
+  div.page-header{
+    background:#663333 ;
+    .page-header-title{
+      color: #FFCC00;
+      font-weight: 700;
+    }
+  }
+  .el-row:nth-child(1){
+    .el-col:nth-child(2){
+      .el-row:nth-child(2){
+        background:#000 ;
+        .page-index .dataCol h1{
+          color: #fff;
+        }
+      }
+    }
+  }
+  .uset{
+    h1{
+      color:#fff
+    }
+    .el-switch{
+      font-size: 18px !important;
+    }
+    .el-switch__label * {
+      font-size: 18px !important;
+    }
+    .el-switch__label{
+      color: #fff;
+      opacity: 0.5;
+    }
+    .is-active{
+      color: gold;
+      opacity: 1;
+    }
+  }
+  .identify{
+    color: #fff;
+  }
+}

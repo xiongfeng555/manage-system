@@ -1,0 +1,29 @@
+.el-table thead{
+    color:#000 !important;
+    background: #eef1f6 !important;
+  }
+  .page-pagination{
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    margin-top:5px ;
+  }
+   .demo-table-expand {
+    font-size: 0;
+  }
+  .demo-table-expand label {
+    width: 90px;
+    color: #99a9bf;
+  }
+  .demo-table-expand .el-form-item {
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 50%;
+  }
+  //  .el-table th>.cell {
+  //   text-align: center !important;
+  // }
+  //  .el-table {
+  //    .cell{
+  //   text-align: center;
+  // }

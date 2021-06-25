@@ -1,0 +1,58 @@
+.page-header{
+  width: 100%;
+  height: 60px;
+  background: #EFF2F7;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 20px;
+  align-items: center;
+  position: relative;
+  
+  .page-header-title{
+    color: #97A8BE;
+    margin-left: 20px;
+    span{
+    cursor: pointer;
+  }
+  }
+  .breadCrumb{
+    margin-left: 50px;
+  }
+  .screenfull{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 100px;
+    cursor: pointer;
+    .icon-fullScreen{
+     font-size: 30px; 
+     color: blue;
+    }
+    .icon-tuichuquanping1{
+      font-size: 30px; 
+     color: blue;
+    }
+  }
+  .hamburger{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    cursor: pointer;
+    .icon-HAMBURGERMENU{
+      font-size: 25px;
+    }
+  }
+}
+.avator{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 37px;
+}

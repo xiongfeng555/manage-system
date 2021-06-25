@@ -1,0 +1,58 @@
+#main{
+    width:100%;
+    min-height:100%;
+    background: #151464;
+    .order_sum{
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 20px;
+      header{
+        font-size: 20px;
+      }
+      .price_sum{
+        font-size: 50px;
+        font-weight: 800;
+        color: #eeda32;
+      }
+    }
+    .order_info{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        color: #fff;
+        font-size: 20px;
+        &>div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .order_num{
+            font-size: 30px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    }
+    .pie_echarts{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 40px;
+    }
+    .bar_echarts{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+    }
+    }
+    .nolimit{
+      min-height: calc(100% - 60px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      span{
+        font-size: 60px;
+        color: #ccc;
+      }
+    }

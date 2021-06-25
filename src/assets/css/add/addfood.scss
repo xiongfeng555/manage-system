@@ -1,0 +1,32 @@
+.addfood{
+    width: 60%;
+    margin: 10px auto 0;
+    .el-input{
+      width: 300px
+    }
+    .el-date-editor{
+      width: 200px;
+    }
+    .el-date-editor:nth-child(2){
+      margin-left:5px ;
+
+    }
+    .el-upload--picture-card{
+      width: 120px;
+      height: 120px;
+      line-height: 120px;
+    }
+    .el-upload{
+      width: 120px;
+      height: 120px;
+    }
+    .el-form-item .el-form-item__label{
+      width: 120px !important;
+    }
+    .el-input{
+      width: 345px;
+    }
+    .el-input-number .el-input__inner{
+      width: 180px;
+    }
+  }

@@ -1,0 +1,30 @@
+{
+  "id": "2616811",
+  "name": "商城管理项目",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14625648",
+      "name": "退出全屏",
+      "font_class": "tuichuquanping1",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "1911677",
+      "name": "HAMBURGER MENU",
+      "font_class": "HAMBURGERMENU",
+      "unicode": "e70a",
+      "unicode_decimal": 59146
+    },
+    {
+      "icon_id": "19657959",
+      "name": "屏幕_全屏",
+      "font_class": "fullScreen",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    }
+  ]
+}

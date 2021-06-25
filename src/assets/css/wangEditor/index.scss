@@ -1,0 +1,26 @@
+.editorText{
+  width: 90%;
+  margin:20px auto ;
+  text-align: center;
+  .submit{
+    margin-top: 20px;
+  }
+  div{
+    text-align: left;
+  }
+  .successAlert{
+    text-align: center;
+  }
+
+}
+.el-notification.right{
+    right: 500px !important;
+    padding:8px 2px;
+  }
+  .el-notification__title{
+    font-weight: normal;
+    font-size: 16px;
+  }
+  .el-notification{
+    transition: opacity .3s,transform .8s,left .3s,right .3s,top .4s,bottom .3s;
+  }

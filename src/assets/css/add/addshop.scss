@@ -1,0 +1,14 @@
+.addshop{
+    width: 60%;
+    margin: 10px auto 0;
+    .el-input{
+      width: 300px
+    }
+    .el-date-editor{
+      width: 200px;
+    }
+    .el-date-editor:nth-child(2){
+      margin-left:5px ;
+
+    }
+  }

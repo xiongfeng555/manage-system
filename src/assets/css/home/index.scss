@@ -1,0 +1,73 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #000;
+  a{
+    text-decoration: none;
+  }
+}
+
+//index.vue
+.main-page {
+	height: 100%;
+	width: 100%;
+  display: flex;
+  .el-scrollbar{
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .scroll_main{
+    height: 100%;
+    overflow-x: hidden;
+    .el-scrollbar__view{
+      height: 100%;
+    }
+  }
+ .sliderBar{
+   height: 100%;
+   // sliderbar收缩后的样式
+   .el-menu--collapse{
+    .el-submenu__title,.el-tooltip{
+      padding-left:10px !important ;
+    }
+    .el-submenu__title span{
+      height: 0;
+      width: 0;
+      overflow: hidden;
+      visibility: hidden;
+      display: inline-block;
+    }
+   } 
+  .el-menu--collapse .el-submenu__icon-arrow{
+    display: none;
+  }
+ }
+
+ //主体样式
+ .main-container{
+   width: 100%;
+   height:calc(100% - 70px);
+ }
+ .scrollbar-wrapper{
+   height: 100%;
+   overflow-x: hidden;
+   .el-scrollbar__view{
+     height: 100%;
+   }
+ }
+  ul.el-menu{
+    min-height: 100% ;
+    position: relative !important;
+   
+  }
+    
+	
+}

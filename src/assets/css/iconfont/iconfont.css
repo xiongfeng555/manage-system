@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2616811 */
+  src: url('iconfont.woff2?t=1624018543110') format('woff2'),
+       url('iconfont.woff?t=1624018543110') format('woff'),
+       url('iconfont.ttf?t=1624018543110') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tuichuquanping1:before {
+  content: "\e633";
+}
+
+.icon-HAMBURGERMENU:before {
+  content: "\e70a";
+}
+
+.icon-fullScreen:before {
+  content: "\e627";
+}
+

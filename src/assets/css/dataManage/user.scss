@@ -1,0 +1,19 @@
+.el-table thead{
+    color:#000 !important;
+    background: #eef1f6 !important;
+  }
+  .el-pagination{
+    text-align: center;
+    display: inline-block;
+  }
+  .page-pagination{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+  }
+  .user .el-table th>.cell {
+    text-align: center !important;
+  }
+  .user .el-table .cell{
+    text-align: center;
+  }
