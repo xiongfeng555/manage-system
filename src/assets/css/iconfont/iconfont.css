@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 2616811 */
-  src: url('iconfont.woff2?t=1624018543110') format('woff2'),
-       url('iconfont.woff?t=1624018543110') format('woff'),
-       url('iconfont.ttf?t=1624018543110') format('truetype');
+  src: url('iconfont.woff2?t=1624775331260') format('woff2'),
+       url('iconfont.woff?t=1624775331260') format('woff'),
+       url('iconfont.ttf?t=1624775331260') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,10 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before {
+  content: "\e76f";
 }
 
 .icon-tuichuquanping1:before {

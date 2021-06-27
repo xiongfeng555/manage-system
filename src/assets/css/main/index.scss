@@ -2,6 +2,27 @@
     width:100%;
     min-height:100%;
     background: #151464;
+    position: relative;
+    .git_bac{
+      width: 0;
+      height: 0;
+      border: 50px solid #30c4b7;
+      position: absolute;
+      border-bottom-color:transparent ;
+      border-left-color:transparent ;
+      right: 0;
+      cursor: pointer;
+    }
+    .icon-github{
+      font-size: 40px;
+      position: absolute;
+      right: 15px;
+      top: 13px;
+      color: #fff;
+      transform: rotateZ(45deg);
+      font-weight: 25;
+      cursor: pointer;
+    }
     .order_sum{
       color: #fff;
       display: flex;

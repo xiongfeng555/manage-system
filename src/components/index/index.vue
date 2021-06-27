@@ -1,5 +1,7 @@
 <template>
   <div v-if="getLimit" id="main">
+    <div class="git_bac" @click="toGithub" />
+    <span class="iconfont icon-github" @click="toGithub" />
     <div class="order_sum">
       <header>今日订单总金额</header>
       <div class="price_sum">4509834</div>
@@ -331,6 +333,11 @@ export default {
   created() {
     this.authority = this.$store.state.user.authority
     console.log(this.authority)
+  },
+  methods: {
+    toGithub() {
+      window.open('https://github.com/xiongfeng555/manage-system', '_blank')
+    }
   }
 }
 </script>

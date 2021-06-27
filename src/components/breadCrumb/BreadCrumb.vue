@@ -1,10 +1,11 @@
 <template>
   <div>
     <el-breadcrumb separator="/">
-      <el-breadcrumb-item :to="'/'">首页</el-breadcrumb-item>
-      <transition-group v-if="!hasNoChild" name="breadcrumb">
-        <el-breadcrumb-item v-for="bread in levelList" :key="bread.path">{{ bread.meta.title }}</el-breadcrumb-item>
-      </transition-group>
+      <span v-if="!hasNoChild">
+        <transition-group :key="$route.fullPath" name="breadcrumb">
+          <el-breadcrumb-item v-for="bread in levelList" :key="bread.path">{{ bread.meta.title }}</el-breadcrumb-item>
+        </transition-group>
+      </span>
     </el-breadcrumb>
   </div>
 </template>
@@ -30,13 +31,16 @@ export default {
   },
   created() {
     this.getBreadCrumb()
-    console.log(this.levelList)
   },
   methods: {
     getBreadCrumb() {
-      let matched = this.$route.matched.filter(item => item.meta && item.meta.title)
-      if (matched[0].path === '' || !matched) {
-        matched = []
+      const matched = this.$route.matched.filter(item => item.meta && item.meta.title)
+      const first = matched[0]
+
+      if (first.meta.title !== '首页') {
+        matched.unshift({ path: '/', meta: {
+          title: '首页'
+        }})
       }
       this.levelList = matched
     }

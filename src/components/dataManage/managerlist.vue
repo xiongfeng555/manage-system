@@ -87,8 +87,3 @@ export default {
   }
 }
 </script>
-<script>
-export default {
-
-}
-</script>

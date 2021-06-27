@@ -4,7 +4,7 @@
     <el-scrollbar wrap-class="scroll_main">
       <div class="main-container">
         <Header />
-        <transition name="fade-transform">
+        <transition name="fade-transform" mode="out-in">
           <router-view />
         </transition>
       </div>
