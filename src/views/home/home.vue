@@ -131,8 +131,13 @@ export default {
     handleClose(key, keyPath) {
       console.log(key, keyPath)
     },
+<<<<<<< HEAD
     handlePrint() {
       console.log('2')
+=======
+    handleSave() {
+      console.log('1')
+>>>>>>> dev
     }
   }
 }
