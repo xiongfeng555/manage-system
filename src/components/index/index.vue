@@ -1,7 +1,15 @@
 <template>
   <div v-if="getLimit" id="main">
-    <div class="git_bac" @click="toGithub" />
-    <span class="iconfont icon-github" @click="toGithub" />
+    <div slot="reference" class="git_bac" />
+    <el-popover
+      placement="left"
+      width="150"
+      trigger="hover"
+      content="点击查看源码"
+    >
+      <span slot="reference" class="iconfont icon-github" @click="toGithub" />
+    </el-popover>
+
     <div class="order_sum">
       <header>今日订单总金额</header>
       <div class="price_sum">4509834</div>

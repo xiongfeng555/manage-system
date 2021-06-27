@@ -8,10 +8,13 @@
       height: 0;
       border: 50px solid #30c4b7;
       position: absolute;
+      border-top-color:#30c4b7 ;
+      border-right-color:#30c4b7 ;
       border-bottom-color:transparent ;
       border-left-color:transparent ;
+      // border-bottom:none;
+      // border-left: none;
       right: 0;
-      cursor: pointer;
     }
     .icon-github{
       font-size: 40px;
@@ -22,6 +25,7 @@
       transform: rotateZ(45deg);
       font-weight: 25;
       cursor: pointer;
+      z-index: 999;
     }
     .order_sum{
       color: #fff;
