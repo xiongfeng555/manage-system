@@ -87,3 +87,8 @@ export default {
   }
 }
 </script>
+<style lang="scss">
+  .el-form--inline .el-form-item {
+    margin-right: 0px !important;
+  }
+</style>
