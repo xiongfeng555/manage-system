@@ -130,6 +130,9 @@ export default {
     },
     handleClose(key, keyPath) {
       console.log(key, keyPath)
+    },
+    handleSave() {
+      console.log('1')
     }
   }
 }
