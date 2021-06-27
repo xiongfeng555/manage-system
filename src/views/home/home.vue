@@ -130,12 +130,6 @@ export default {
     },
     handleClose(key, keyPath) {
       console.log(key, keyPath)
-    },
-    handlePrint() {
-      console.log('2')
-    },
-    handeleSave() {
-      console.log('1')
     }
   }
 }
