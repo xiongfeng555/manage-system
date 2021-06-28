@@ -1,0 +1,98 @@
+.fruits_container{
+    height: 100%;
+    overflow: scroll;
+    .search_container{
+        height: 60px;
+        border-bottom: 1px solid #091570;
+        display: flex;
+        align-items: center;
+        .search{
+            margin-left:194px ;
+            display: flex;
+            .el-input{
+                width: 300px;
+                .el-input__inner{
+                    border-radius: 4px 0 0 4px;
+                }
+            }
+            .el-button{
+                border-radius: 0 4px 4px 0;
+            }
+        }
+    }
+    .fruits{
+        margin-left: 194px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        .fruits_card{
+            overflow: hidden;
+            width: 30%;
+            margin-bottom: 20px;
+            .el-card{
+                width: 327px;
+                height: 360px;
+                .image{
+                    width: 327px;
+                    height: 250px;
+                }
+                .title{
+                    font-size: 16px;
+                    color: #c06f27;
+                }
+              .bottom{
+                  margin-top: 10px;
+                  position: relative;
+                  height: 60px;
+                  .button{
+                      position: absolute;
+                      bottom: 0;
+                      right: 0;
+                  }
+                  .price{
+                      position: absolute;
+                      right: 0;
+                      
+                  }
+                  .time{
+                   position: absolute;
+                   left: 0;
+                   bottom: 10px;
+                   span{
+                       color: #22319b !important;
+                       margin-right: 10px;
+                   }   
+                  }
+              }
+              .fruits-dec{
+                  height: 80px;
+              }
+            }
+        }
+    }
+}
+::-webkit-scrollbar {
+    /*隐藏滚轮*/
+    display: none;
+    }
+
+.fruit_item{
+    height: calc(100% - 70px );
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    .title{
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    .fruit_info{
+        width: 800px;
+        .el-input.is-disabled .el-input__inner{
+            color: #000;
+            border-color:#DCDFE6;
+            cursor: pointer;
+        }
+    }
+}

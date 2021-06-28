@@ -159,7 +159,9 @@ export default {
     confirm() {
       this.dialogVisible = false
     },
-    handleClose() {},
+    handleClose() {
+      this.dialogVisible = false
+    },
     getSellerList() {
       // axios.get('http://localhost:8080/mt/dataManage/sellerlist').then(res => {
       //   this.tableData = res.data.data

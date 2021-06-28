@@ -3,7 +3,7 @@
     <el-breadcrumb separator="/">
       <span v-if="!hasNoChild">
         <transition-group :key="$route.fullPath" name="breadcrumb">
-          <el-breadcrumb-item v-for="bread in levelList" :key="bread.path">{{ bread.meta.title }}</el-breadcrumb-item>
+          <el-breadcrumb-item v-for="bread in levelList" :key="bread.path" :to="bread.path">{{ bread.meta.title }}</el-breadcrumb-item>
         </transition-group>
       </span>
     </el-breadcrumb>

@@ -156,7 +156,9 @@ export default {
     confirm() {
       this.dialogVisible = false
     },
-    handleClose() {},
+    handleClose() {
+      this.dialogVisible = false
+    },
     getFoodList() {
       // axios.get('http://localhost:8080/mt/dataManage/foodlist').then(res => {
       //   this.tableData = res.data.data

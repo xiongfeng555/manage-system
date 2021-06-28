@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "1630001",
+      "name": "回到顶部",
+      "font_class": "huidaodingbu",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
       "icon_id": "18361007",
       "name": "github",
       "font_class": "github",

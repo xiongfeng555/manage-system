@@ -96,6 +96,10 @@ const routes = [
     },
     children: [
       {
+        path: '/',
+        component: () => import('@/components/add/addshop.vue')
+      },
+      {
         path: 'addshop',
         component: () => import('@/components/add/addshop.vue'),
         meta: {
@@ -108,6 +112,36 @@ const routes = [
         meta: {
           title: '添加商铺'
         }
+      }
+    ]
+  },
+  {
+    path: '/goods',
+    component: layout,
+    meta: {
+      title: '食品库',
+      icon: 'el-icon-s-goods'
+    },
+    children: [
+      {
+        path: '/',
+        component: () => import('@/views/goods/fruits.vue')
+      },
+      {
+        path: 'fruits',
+        component: () => import('@/views/goods/fruits.vue'),
+        meta: {
+          title: '瓜果'
+        }
+      },
+      {
+        path: 'fruitsItem',
+        name: 'fruitsItem',
+        component: () => import('@/views/goods/fruit-item.vue')
+        // hidden: true,
+        // meta: {
+        //   title: '详细信息'
+        // }
       }
     ]
   },
