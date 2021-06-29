@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <div class="t-login">
-      <h1>后台登录系统</h1>
+      <h1>订单管理系统</h1>
       <div class="myform">
 
         <el-form ref="ruleForm" :model="ruleForm" status-icon :rules="rules" label-width="100px" class="demo-ruleForm">
