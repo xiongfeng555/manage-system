@@ -1,5 +1,6 @@
 <template>
   <div v-if="getLimit" id="main">
+
     <div slot="reference" class="git_bac" />
     <el-popover
       placement="left"
@@ -64,8 +65,10 @@
 
   </div>
 </template>
+
 <script>
 import HomeEchart from '@/components/echart/HomeEchart'
+
 export default {
   components: {
     HomeEchart
@@ -342,6 +345,7 @@ export default {
     this.authority = this.$store.state.user.authority
     console.log(this.authority)
   },
+
   methods: {
     toGithub() {
       window.open('https://github.com/xiongfeng555/manage-system', '_blank')
@@ -349,4 +353,6 @@ export default {
   }
 }
 </script>
-<style lang="scss"></style>
+<style lang="scss">
+
+  </style>

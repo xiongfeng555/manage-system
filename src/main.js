@@ -8,7 +8,8 @@ import { mockXHR } from '@/mock/dataManage/index.js'
 import '@/assets/css/iconfont/iconfont.css'
 import { mockGoods } from '@/mock/goods/index.js'
 import VueLazyload from 'vue-lazyload'
-
+import VueParticles from 'vue-particles'
+Vue.use(VueParticles)
 Vue.use(VueLazyload)
 mockXHR()
 mockGoods()
